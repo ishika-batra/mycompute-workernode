@@ -375,15 +375,14 @@ header {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 1rem;
-  margin: 0.5rem;
+  padding: 1.5rem 1.5rem 2.5rem 2.5rem;
   background: var(--primary-5);
   color: var(--white);
-  border-radius: var(--borderRadius);
+  border-bottom-left-radius: 100%;
   border: none;
   cursor: pointer;
   transition: var(--transition);
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 .profile-btn:hover {
   background: var(--primary-6);
